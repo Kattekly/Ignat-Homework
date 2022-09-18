@@ -1,0 +1,46 @@
+.all {
+    background-color: greenyellow;
+}
+
+.container-1 {
+    margin: 30px;
+    padding: 50px;
+}
+
+.message {
+
+}
+
+.avatar img {
+    display: block;
+    margin: 5px;
+    width: 50px;
+    border-radius: 50%;
+    position: relative;
+    top: 10px;
+}
+
+
+.name {
+    font-size: 20px;
+    font-weight: 700;
+    color: yellow;
+}
+
+.time {
+    color: #aaa;
+    position: relative;
+    top: -80px;
+    left: 300px;
+}
+
+.notall {
+    width: 19%;
+    font-weight: bold;
+    background-color: darkgreen;
+    position: relative;
+    top: -55px;
+    left: 70px;
+    padding: 10px;
+    border-radius: 20px;
+}
