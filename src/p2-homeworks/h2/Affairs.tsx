@@ -2,6 +2,7 @@ import React, {MouseEventHandler} from 'react'
 import Affair from './Affair'
 import {AffairPriorityType, FilterType} from './HW2'
 
+
 export type AffairType = {
     id: number,
     name: string,
