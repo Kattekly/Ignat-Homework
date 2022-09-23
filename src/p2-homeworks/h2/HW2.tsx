@@ -25,7 +25,7 @@ export const filterAffairs = (affairs: Array<AffairType>, filter: FilterType): A
     return affairs
 }
 export const deleteAffair = (affairs: Array<AffairType>, id: number): any => { // need to fix any
-    return affairs = affairs.filter(t => t.id !== id)
+    return affairs.filter(t => t.id !== id)
 }
 
 
