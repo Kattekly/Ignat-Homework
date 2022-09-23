@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {MouseEventHandler} from 'react'
 import Affair from './Affair'
 import {AffairPriorityType, FilterType} from './HW2'
 

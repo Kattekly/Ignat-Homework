@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {MouseEventHandler} from 'react'
 
 type AffairPropsType = {
     id: number
@@ -8,7 +8,7 @@ type AffairPropsType = {
 }
 
 function Affair(props: AffairPropsType) {
-    const deleteCallback = (id: number) => {
+    const deleteCallback = () => {
         props.deleteAffairCallback(props.id)
     }
 
@@ -17,7 +17,7 @@ function Affair(props: AffairPropsType) {
         <div>
             <span>{props.affair + " "}</span>
             <span>{props.priority}</span>
-            <button onClick={deleteCallback}>X</button>
+            <button onClick = {deleteCallback}>X</button>
         </div>
     )
 }
