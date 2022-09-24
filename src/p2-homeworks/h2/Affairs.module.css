@@ -2,25 +2,40 @@
     margin: 10px;
     width: 400px;
     display: flex;
-    align-items: flex-end;
+    font-weight: bold;
     justify-content: space-between;
 }
 
 .all {
     background-color: orange;
+    width: 80px;
 }
 
-
 .high {
+    color: darkred;
+}
+
+.high1 {
     background-color: darkred;
+    width: 80px;
 }
 
 .middle {
+    color: darkgreen;
+}
+
+.middle1 {
     background-color: darkgreen;
+    width: 80px;
 }
 
 .low {
+    color: darkblue;
+}
+
+.low1 {
     background-color: darkblue;
+    width: 80px;
 }
 
 .del {

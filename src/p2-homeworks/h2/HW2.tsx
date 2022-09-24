@@ -13,13 +13,13 @@ const defaultAffairs: Array<AffairType> = [ // need to fix any
     {id: 2, name: 'anime', priority: 'low'},
     {id: 3, name: 'games', priority: 'low'},
     {id: 4, name: 'work', priority: 'high'},
-    {id: 5, name: 'html & css', priority: 'middle'},
+    {id: 5, name: 'html&css', priority: 'middle'},
 ]
 
 // pure helper functions
 export const filterAffairs = (affairs: Array<AffairType>, filter: FilterType): Array<AffairType> => { // need to fix any
     if (filter === 'all') return affairs
-    if (filter === 'high') return affairs.filter(t => t.priority === 'high')
+    if (filter === 'high') return affairs.filter (t => t.priority === 'high')
     if (filter === 'low') return affairs.filter(t => t.priority === 'low')
     if (filter === 'middle') return affairs.filter(t => t.priority === 'middle')
     return affairs
