@@ -1,23 +1,13 @@
 .all {
-    background-color: greenyellow;
+    display: flex;
+    align-items: flex-end;
+    margin: 10px;
 }
 
-.container-1 {
-    margin: 30px;
-    padding: 50px;
-}
-
-.message {
-
-}
-
-.avatar img {
-    display: block;
-    margin: 5px;
+.avatar {
+  height: 50px;
     width: 50px;
     border-radius: 50%;
-    position: relative;
-    top: 10px;
 }
 
 
