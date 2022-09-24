@@ -1,3 +1,28 @@
-.someClass {
+.why {
+    margin: 10px;
+    width: 400px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
 
+.all {
+    background-color: orange;
+}
+
+
+.high {
+    background-color: darkred;
+}
+
+.middle {
+    background-color: darkgreen;
+}
+
+.low {
+    background-color: darkblue;
+}
+
+.del {
+    background-color: lightslategrey;
 }

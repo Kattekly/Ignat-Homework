@@ -1,9 +1,9 @@
 import React, {useState} from 'react'
 import Affairs, {AffairType} from './Affairs'
+import s from './Affairs.module.css'
 
 // types
 export type AffairPriorityType = 'high' | 'low' | 'middle'
-
 export type FilterType = 'all' | AffairPriorityType
 
 

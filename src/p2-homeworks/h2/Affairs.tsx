@@ -1,7 +1,7 @@
 import React, {MouseEventHandler} from 'react'
 import Affair from './Affair'
 import {AffairPriorityType, FilterType} from './HW2'
-import {constants} from "os";
+import s from './Affairs.module.css'
 
 
 export type AffairType = {
@@ -12,7 +12,7 @@ export type AffairType = {
 
 type AffairsPropsType = { // need to fix any
     data: Array<AffairType>
-    setFilter: (name: FilterType) => void
+    setFilter: (filter: FilterType) => void
     deleteAffairCallback: (id: number) => void
 }
 
@@ -45,10 +45,10 @@ function Affairs(props: AffairsPropsType) {
 
             {mappedAffairs}
 
-            <button onClick={setAll}>All</button>
-            <button onClick={setHigh}>High</button>
-            <button onClick={setMiddle}>Middle</button>
-            <button onClick={setLow}>Low</button>
+            <button onClick={setAll} className={s.all}>All</button>
+            <button onClick={setHigh} className={s.high}>High</button>
+            <button onClick={setMiddle}className={s.middle}>Middle</button>
+            <button onClick={setLow}className={s.low}>Low</button>
         </div>
     )
 }
