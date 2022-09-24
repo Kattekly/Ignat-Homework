@@ -38,8 +38,7 @@
 }
 
 .time {
-    color: #aaa;
-    position: relative;
-    top: -80px;
-    left: 300px;
+  display: flex;
+    justify-content: flex-end;
+    color: gray;
 }
