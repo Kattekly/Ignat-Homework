@@ -10,11 +10,31 @@
     border-radius: 50%;
 }
 
+.content {
+    padding: 10px;
+    border-radius: 5px 5px 5px 0px;
+    background: linear-gradient(
+            blueviolet, mediumslateblue, plum
+    );
+}
+
+
+.ygol {
+    width: 15px;
+    height: 15px;
+    background: radial-gradient(circle at 0 0, rgba(0, 0, 0, 0) 15px, plum 0px);
+}
+
+.message {
+    min-width: 150px;
+    max-width: 300px;
+    word-wrap: break-word;
+}
 
 .name {
     font-size: 20px;
-    font-weight: 700;
-    color: yellow;
+    font-weight: bold;
+    color: orange;
 }
 
 .time {
@@ -22,15 +42,4 @@
     position: relative;
     top: -80px;
     left: 300px;
-}
-
-.notall {
-    width: 19%;
-    font-weight: bold;
-    background-color: darkgreen;
-    position: relative;
-    top: -55px;
-    left: 70px;
-    padding: 10px;
-    border-radius: 20px;
 }
