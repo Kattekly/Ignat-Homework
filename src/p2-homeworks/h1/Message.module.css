@@ -14,7 +14,7 @@
     padding: 10px;
     border-radius: 5px 5px 5px 0px;
     background: linear-gradient(
-            blueviolet, mediumslateblue, plum
+            greenyellow, green,  darkgreen
     );
 }
 
@@ -22,7 +22,7 @@
 .ygol {
     width: 15px;
     height: 15px;
-    background: radial-gradient(circle at 0 0, rgba(0, 0, 0, 0) 15px, plum 0px);
+    background: radial-gradient(circle at 0 0, rgba(0, 0, 0, 0) 15px, darkgreen 0px);
 }
 
 .message {
@@ -34,7 +34,7 @@
 .name {
     font-size: 20px;
     font-weight: bold;
-    color: orange;
+    color: black;
 }
 
 .time {
